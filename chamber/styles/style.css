@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     background-color: rgb(222, 231, 235);
+    padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -307,6 +308,18 @@ footer {
     body{
         background-color: green;
     }
+
+    
+
+
+
+
+
+
+
+
+
+
   }
 
 

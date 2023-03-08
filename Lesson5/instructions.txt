@@ -1,0 +1,17 @@
+1. Create your own valid HTML file named "bom.html" including basic head meta tags and a title.
+2. Create a corresponding CSS file and JS file and place them in appropriate folders within the lesson folder.
+3. Use the following codepen.io to provide the basic HTML guts of the input and output areas of the app along with some basic CSS: BOM Top 25Links to an external site.
+4. Create three variables that hold references to the input, button, and list elements using const.
+5. Create an click event listener for the Add Chapter button using addEventListener and an anonymous function.  
+Example:  button.addEventListener('click', function() { ...
+6. In the function block for adding a chapter,
+a. make sure the input is not blank before doing the following remaining tasks in this list
+b. create an li element
+c. create a delete button
+d. populate the li elements textContent or innerHTML with the input
+e. populate the button textContent with an ❌
+f. append the li element with the delete button
+g. append the list element with the li element just created and appended with text and the delete button
+h. add an event listener to the delete button that removes the li element when clicked
+i. send the focus to the input element
+j. change the input value to nothing or the empty string to clean up the interface for the user

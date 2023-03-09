@@ -13,44 +13,48 @@
 
 <body>
 
+
 <header>
     <div class="logo">
         <img class="logo-icon" src="images/chamberofcommercelogo.png" alt="Mountain View Chamber of Commerce Logo">
         <div id="logo-text"><h1>Mountain View <br>Chamber of Commerce</h1></div>
     </div>
 
-    <nav>
-        <a class="nav-link" href="">DISCOVERY</a>
-        <a class="nav-link" href="">DIRECTORY</a>
-        <a class="nav-link" href="">JOIN</a>
-        <a class="nav-link" href="">CONTACT</a>
+    <nav> 
+        <ul class="nav-menu">
+            <li class="nav-item"><a class="nav-link" href="#">DISCOVERY</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">DIRECTORY</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">JOIN</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div> 
     </nav>
-
-    <div id="social-media-links">
-        <a href=""><img class="social-media-icon" src="/images/facebook.png" alt="Facebook Icon"></a>
-        <a href=""><img class="social-media-icon" src="/images/linkedin.png" alt="Twitter Icon"></a>
-    </div>
-
-
 </header>
 
-<h5 id="current-date"> Something</h5>
+
+<p id="current-date">Something</p>
+
+<p id="announcement">Today is a great day!</p>
 
 <main>
     
     <div class="main-container">
-        <div class="box" id="box1">Hero with site name and call to action
+        <div class="box" id="hero">Hero with site name and call to action
             <img id="hero-pic" src="images/valley.jpg" alt="Picture of Utah Valley by Courtney Smith">
         </div>
-        <div class="box" id="box2">Event</div>
-        <div class="box" id="box3">Weather</div>
-        <div class="box" id="box4">News Release</div>
-        <div class="box" id="box5">Spotlights
-            <div class="spotlight box">Spotlight 1</div>
-            <div class="spotlight box">Spotlight 2</div>
-            <div class="spotlight box">Spotlight 3</div>
+        <div class="box" id="event-section">Event</div>
+        <div class="box" id="weather-section">Weather</div>
+        <div class="box" id="new-release-section">News Release</div>
+        <div class="box" id="spotlight-section">Spotlights
+            <div class="spotlight box" id="spotlight1">Spotlight 1</div>
+            <div class="spotlight box" id="spotlight2">Spotlight 2</div>
+            <div class="spotlight box" id="spotlight3">Spotlight 3</div>
         </div>
-        <div class="box" id="box6">Join</div>
+        <div class="box" id="join-section">Join</div>
         
     </div>
 
@@ -63,13 +67,13 @@
 
         <div id="address-container">
             <img id="address-icon" class="logo-icon" src="images/chamberofcommercelogo.png" alt="Mountain View Chamber of Commerce Logo">
-            <h4 id="address-text">Mountain View Chamber of Commerce<br>
-            1025 Frontage Road <br>Mountain View, Utah, 84065<br>United States</h4>
+            <p id="address-text">Mountain View Chamber of Commerce<br>
+            1025 Frontage Road <br>Mountain View, Utah, 84065<br>United States</p>
         </div>
 
-        <h4 id="contact-info">
+        <p id="contact-info">
             Contact Us:<br>info@mountainview.com<br>801-988-9777<br><a id="location-link" href="">Location 📍</a> 
-        </h4>
+        </p>
 
     </div>
 

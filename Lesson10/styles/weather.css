@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+}
+
+img {
+    width: 15%;
+}
+
+.widget {
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: beige;
+}

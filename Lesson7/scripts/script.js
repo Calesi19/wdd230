@@ -8,6 +8,7 @@ const images = document.querySelectorAll('img[data-src]');
 
             img.src = src;
             img.removeAttribute('data-src');
+            img.classList.add('loaded'); // add the 'loaded' class to the image
         }
 
         const imgOptions = {

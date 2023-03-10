@@ -16,3 +16,13 @@ img {
     min-width: 30%;
     max-width: 30%;
 }
+
+.loaded {
+    transition: opacity .5s;
+    opacity: 1;
+  }
+
+  img[data-src] {
+    opacity: 0;
+    transition: opacity .5s;
+  }

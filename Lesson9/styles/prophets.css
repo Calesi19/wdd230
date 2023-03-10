@@ -1,0 +1,59 @@
+html {
+    background-color: rgba(200, 155, 200, 0.499);
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    display: block;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cards {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr;
+    gap: 25px
+    
+}
+
+section {
+    text-align: center;
+    background-color: rgba(148, 107, 148, 0.499);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen {
+    
+}
+
+
+
+
+@media(max-width:1124px){
+
+    .cards {
+        grid-template-columns: 10fr 10fr;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .cards {
+        grid-template-columns: 10fr;
+    }
+}

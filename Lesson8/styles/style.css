@@ -1,0 +1,31 @@
+
+* {
+    padding: 5px;
+}
+
+table {
+    background-color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #e1e1e1;
+  }
+
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+
+.column {
+    background-color: grey;
+    color: white;
+}
+
+.empty, caption {
+    background-color: black;
+    color: white
+}
+
+td {
+    min-width: 75px;
+    text-align: center;
+}
